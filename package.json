@@ -1,5 +1,8 @@
 {
-    "scripts":{
-    "deploy":"firebase deploy --only hosting:shantiashram"
-}
+    "scripts": {
+        "deploy": "firebase deploy --only hosting:shantiashram"
+    },
+    "dependencies": {
+        "firebase": "^10.3.1"
+    }
 }
