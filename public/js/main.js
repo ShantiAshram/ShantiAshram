@@ -147,3 +147,17 @@
 
 
 }());
+
+document.addEventListener("DOMContentLoaded", function() {
+    const scrollButton = document.getElementById("getInvolvedButton");
+    const sectionToScroll = document.getElementById("involvementMethods");
+
+    scrollButton.addEventListener("click", function() {
+        const targetPosition = sectionToScroll.offsetTop - 225;
+
+        window.scrollTo({
+            top: targetPosition,
+            behavior: "smooth"
+        });
+    });
+});
