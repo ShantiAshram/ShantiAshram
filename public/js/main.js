@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const sectionToScroll = document.getElementById("involvementMethods");
 
     scrollButton.addEventListener("click", function() {
-        const targetPosition = sectionToScroll.offsetTop - 225;
+        const targetPosition = sectionToScroll.offsetTop - 200;
 
         window.scrollTo({
             top: targetPosition,
