@@ -813,11 +813,6 @@ figure {
   }
 }
 
-#involvementMethods {
-  display: flex;
-  justify-content: space-between;
-}
-
 #fh5co-features {
   padding: 4em 0;
 }
@@ -1176,6 +1171,12 @@ figure {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+}
+.btn.btn-nav{
+  background: #ff5722;
+  color: #fff;
+  float: right;
+  
 }
 .btn.btn-primary {
   background: #ff5722;
