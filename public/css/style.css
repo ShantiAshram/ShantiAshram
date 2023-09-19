@@ -567,6 +567,8 @@ figure {
   font-size: 40px;
   font-weight: 300;
   position: relative;
+  text-align: center;
+  margin-bottom: 3%;
 }
 .heading-section p {
   font-size: 20px;
@@ -574,7 +576,7 @@ figure {
 
 .feature-text h3 {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 10px;
   font-weight: 700;
   color: #000;
@@ -1477,7 +1479,7 @@ figure {
   background: url(../images/hourglass.svg) center no-repeat #222222;
 }
 .img-responsive{
-  height: 450px;
+  height: 400px;
   width: auto;
 }
 
