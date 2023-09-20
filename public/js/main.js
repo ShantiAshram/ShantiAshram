@@ -149,11 +149,11 @@
 }());
 
 document.addEventListener("DOMContentLoaded", function() {
-    const scrollButton = document.getElementById("getInvolvedButton");
-    const sectionToScroll = document.getElementById("involvementMethods");
+    const scrollButton = document.getElementById("contactUsButton");
+    const sectionToScroll = document.getElementById("fh5co-contact");
 
     scrollButton.addEventListener("click", function() {
-        const targetPosition = sectionToScroll.offsetTop - 200;
+        const targetPosition = sectionToScroll.offsetTop - 75;
 
         window.scrollTo({
             top: targetPosition,
@@ -161,3 +161,26 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Function to handle smooth scrolling
+    function smoothScrollToTarget() {
+        const hash = window.location.hash;
+		console.log(hash)
+        if (hash == "#fh5co-contact") {
+            const targetElement = document.querySelector(hash);
+            if (targetElement) {
+                const targetPosition = targetElement.offsetTop - 75;
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: "smooth"
+                });
+            }
+        }
+    }
+
+    // Scroll to the target section when the page loads or when hash changes
+    window.addEventListener("load", smoothScrollToTarget);
+    window.addEventListener("hashchange", smoothScrollToTarget);
+});
+

@@ -659,6 +659,12 @@ figure {
   float: right;
   width: 80%;
 }
+.feature-left .feature-copy button {
+  background:none; 
+  border:none; 
+  color: #ff5722;
+  
+}
 @media screen and (max-width: 992px) {
   .feature-left .feature-copy {
     width: 90%;
@@ -878,6 +884,7 @@ figure {
 #fh5co-features .feature-left p:last-child {
   margin-bottom: 0;
 }
+
 
 #fh5co-feature-product {
   padding: 7em 0;
