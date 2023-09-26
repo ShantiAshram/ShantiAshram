@@ -148,6 +148,8 @@
 
 }());
 
+			// Smooth Scrolling and Button Navigation \\
+
 document.addEventListener("DOMContentLoaded", function() {
     const scrollButton = document.getElementById("contactUsButton");
     const sectionToScroll = document.getElementById("fh5co-contact");
@@ -166,7 +168,6 @@ document.addEventListener("DOMContentLoaded", function() {
     // Function to handle smooth scrolling
     function smoothScrollToTarget() {
         const hash = window.location.hash;
-		console.log(hash)
         if (hash == "#fh5co-contact") {
             const targetElement = document.querySelector(hash);
             if (targetElement) {
@@ -183,4 +184,27 @@ document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener("load", smoothScrollToTarget);
     window.addEventListener("hashchange", smoothScrollToTarget);
 });
+
+// Handle Contact - US form submission
+
+var submission = function(){
+	const GoogleAppScriptURL = "https://script.google.com/a/gmail.com/macros/s/AKfycbxIAGt2Goy3HNF8dZODcLfPfPNYlFspju93CIOZgk_RQ24pqZwz_WjyeQ8InmbVev2ZaQ/exec";
+	const form  = document.forms["contact-us-form"];
+	const message = document.getElementById("contact-form-submit-btn")
+
+	form.addEventListener('submit',e =>{
+		e.preventDefault()
+		alert('Thank you for your message, our deligent team will get righ to it!');
+		fetch(GoogleAppScriptURL, {method:"POST", body: new FormData(form)})
+		.then(Response => {
+			message.innerHTML = "Submitted"
+			setTimeout(function(){
+				message.innerHTML = "Submit Another"
+			},500)
+		})
+
+
+	})
+
+}
 
