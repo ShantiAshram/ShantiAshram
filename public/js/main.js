@@ -187,24 +187,28 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Handle Contact - US form submission
 
-var submission = function(){
+$(
+	function(){
 	const GoogleAppScriptURL = "https://script.google.com/a/gmail.com/macros/s/AKfycbxIAGt2Goy3HNF8dZODcLfPfPNYlFspju93CIOZgk_RQ24pqZwz_WjyeQ8InmbVev2ZaQ/exec";
 	const form  = document.forms["contact-us-form"];
 	const message = document.getElementById("contact-form-submit-btn")
 
 	form.addEventListener('submit',e =>{
 		e.preventDefault()
+ 
 		alert('Thank you for your message, our deligent team will get righ to it!');
 		fetch(GoogleAppScriptURL, {method:"POST", body: new FormData(form)})
 		.then(Response => {
+			console.log(Response)
 			message.innerHTML = "Submitted"
 			setTimeout(function(){
 				message.innerHTML = "Submit Another"
 			},500)
 		})
 
-
 	})
 
 }
+
+) 
 
