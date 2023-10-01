@@ -1,7 +1,5 @@
 Shanti Ashram
 
-![Shanti Ashram Logo](https://example.com/shanti-ashram-logo.png)
-
 Welcome to Shanti Ashram! This is the official repository for our website, which serves as the front-facing information and involvement hub for anyone interested in learning more about our organization, mission, and goals.
 
 ## Table of Contents
@@ -19,19 +17,26 @@ Welcome to Shanti Ashram! This is the official repository for our website, which
 
 Shanti Ashram is a non-profit organization dedicated to promoting peace, social justice, and community well-being. Our mission is to create positive change by empowering individuals and communities through education, advocacy, and outreach programs.
 
-Visit our official website: [https://www.shantiashram.org](https://www.shantiashram.org)
+Visit our official website: [https://shantiashramnepal.web.app/](https://shantiashramnepal.web.app/)
 
 ## Features
 
 Our website includes a range of features designed to provide you with comprehensive information and opportunities for involvement:
 
-- **Mission Statement:** Learn about our organization's mission and core values.
+- **Mission Statement:** "At Shanti Ashram, our mission is to empower children who have been deprived of opportunities, by offering them a nurturing environment that encompasses shelter, nourishment, and education. We are dedicated to fostering an environment where these children can not only flourish but also harness their creative potential, ultimately finding their rightful role in our global community. As a compassionate sanctuary for children, we are fueled by a profound passion to make a lasting positive impact on their lives."
 
-- **Timelines:** Stay updated on our ongoing and past initiatives and projects.
+- **Objectives:**
+A website that serves as the front-facing information and involvement page for anyone wanting to know more about us and our goals. It will have many features such as a mission statement, timelines, ways to get involved, contact information, and donations.
 
-- **Ways to Get Involved:** Discover various ways you can contribute to our cause, including volunteer opportunities and events.
+- **Love:** Building our foundation, we start everything with love. From peTeaching children to love themselves, and those whom they are surrounded with, will give them a lifetime of lessons- especially to help each other in need. Honoring a natural lifestyle, we will teach children to grow their own food, living in an organic lifestyle, which involves a language of love that is able to be passed down from generations to generations. Everything starts with a vision, and this one is an impeccable one; touching lives of many. We are starting from the ground up, and you can help us take this vision- make it a physical reality. 
 
-- **Contact Information:** Find our contact details for inquiries and collaboration.
+ 
+
+- **Structure:** Bringing forth structure, discipline, and creativity into the lives of children will help them discover their journey in life. We will use gentle ways of discipline, including creative structures based upon child’s needs, in daily routines that will assist children to develop habits that will acclimate them into confidence in their journey.
+
+ 
+
+- **Charity:** Our sponsors, donors, and board members are compassionate individuals who have honor in serving our cause. Being a charitable organization, our main priority is to bring forth a difference in lives of children in Nepal, and provide homes to children who have no where to call home. Join us in this provision of serving assistance, a humanitarian act that is unmotivated by any self-interest, and is all about the lives of the children in Nepal.
 
 - **Donations:** Support our mission by making a donation through our secure platform.
 
@@ -50,20 +55,15 @@ To clone this repository to your local machine, you'll need [Git](https://git-sc
 3. Run the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/ShantiAshram/website.git
+   git clone https://github.com/ShantiAshram/ShantiAshram.git
    ```
 
-4. Change into the project directory:
-
-   ```bash
-   cd website
-   ```
 
 ### Fixing Issues
 
 We welcome contributions from the community to improve our website. If you'd like to fix an issue or work on an enhancement, follow these steps:
 
-1. Browse our [issue tracker](https://github.com/ShantiAshram/website/issues) to find an issue you'd like to work on. If you don't find an existing issue, feel free to create a new one.
+1. Browse our [Trello board](https://trello.com/b/CRiwsjfr/shanti-ashram-web-development) to find an issue you'd like to work on. If you don't find an existing issue, feel free to create a new one.
 
 2. Fork the repository by clicking the "Fork" button on the top right of this page.
 
@@ -90,9 +90,19 @@ We welcome contributions from the community to improve our website. If you'd lik
    git push origin fix-issue-XXX
    ```
 
-7. Open a pull request (PR) from your fork to the main repository. Be sure to describe your changes and reference the issue you're fixing.
+7. Make a pull request.
 
-Once your PR is reviewed and accepted, your changes will be merged into the main repository.
+   Format title: “[SAW-ticket#] - Short Description”
+
+   Merge requests cannot be approved by the contributor, they have to be approved by another member.
+
+   Add the pull request link to the ticket comments
+
+   Move the ticket to code review so members know it is ready for review.
+
+   Fix any review changes and go back to step 4 until it's approved.    
+
+   Once your PR is reviewed and accepted, your changes will be merged into the main repository.
 
 ## Contributing
 
@@ -100,14 +110,10 @@ We appreciate contributions from the community. If you have ideas for improvemen
 
 ## Contact Information
 
-For inquiries, collaboration opportunities, or any questions, you can contact us through the following channels:
-
-- **Email:** contact@shantiashram.org
-- **Twitter:** [@ShantiAshram](https://twitter.com/ShantiAshram)
-- **Facebook:** [Shanti Ashram](https://www.facebook.com/ShantiAshram)
+For inquiries, collaboration opportunities, or any questions, you can contact us our project lead Anish Kharel at kharela@berea.edu.
 
 ## Donations
 
-Your support helps us continue our mission and make a positive impact in communities. If you'd like to make a donation, please visit our website's [donation page](https://www.shantiashram.org/donate).
+Your support helps us continue our mission and make a positive impact in communities. If you'd like to make a donation, please visit our website's donation page.
 
 Thank you for your interest in Shanti Ashram and for being part of our journey toward a more peaceful and just world.
