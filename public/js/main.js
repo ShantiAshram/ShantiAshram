@@ -148,12 +148,14 @@
 
 }());
 
+			// Smooth Scrolling and Button Navigation \\
+
 document.addEventListener("DOMContentLoaded", function() {
-    const scrollButton = document.getElementById("getInvolvedButton");
-    const sectionToScroll = document.getElementById("involvementMethods");
+    const scrollButton = document.getElementById("contactUsButton");
+    const sectionToScroll = document.getElementById("fh5co-contact");
 
     scrollButton.addEventListener("click", function() {
-        const targetPosition = sectionToScroll.offsetTop - 200;
+        const targetPosition = sectionToScroll.offsetTop - 75;
 
         window.scrollTo({
             top: targetPosition,
@@ -161,3 +163,59 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Function to handle smooth scrolling
+    function smoothScrollToTarget() {
+        const hash = window.location.hash;
+        if (hash == "#fh5co-contact") {
+            const targetElement = document.querySelector(hash);
+            if (targetElement) {
+                const targetPosition = targetElement.offsetTop - 75;
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: "smooth"
+                });
+            }
+        }
+    }
+
+    // Scroll to the target section when the page loads or when hash changes
+    window.addEventListener("load", smoothScrollToTarget);
+    window.addEventListener("hashchange", smoothScrollToTarget);
+});
+
+// Handle Contact - US form submission
+
+$(
+	function(){
+	const GoogleAppScriptURL = "https://script.google.com/macros/s/AKfycbxM_5Oj_lXMiiHb607gFbsXfurDlEgpf-TF-KAuchsEW-1pg6B4PCeaRBOonNriEjmyeg/exec";
+	const form  = document.forms["contact-us-form"];
+	const message = document.getElementById("contact-form-submit-btn")
+
+	form.addEventListener('submit',e =>{
+		e.preventDefault();
+		alert('Thank you for your message, our deligent team will get righ to it!');
+		var formData = new FormData(form);
+		fetch(GoogleAppScriptURL, {
+		  method: 'POST',
+		  body: JSON.stringify(Object.fromEntries(formData)),
+		  headers: {
+			'Content-Type': 'application/json',
+		  },
+		})
+		.then(Response => {
+			console.log(Response)
+			message.innerHTML = "Submitted"
+			setTimeout(function(){
+				message.innerHTML = "Submit Another"
+			},500)
+		})
+		.catch(error => console.error('Error!', error.message))
+
+	})
+
+}
+
+) 
+
