@@ -28,7 +28,6 @@ Our website includes a range of features designed to provide you with comprehens
 - **Objectives:**
 A website that serves as the front-facing information and involvement page for anyone wanting to know more about us and our goals. It will have many features such as a mission statement, timelines, ways to get involved, contact information, and donations.
 
-- **Love:** Building our foundation, we start everything with love. From peTeaching children to love themselves, and those whom they are surrounded with, will give them a lifetime of lessons- especially to help each other in need. Honoring a natural lifestyle, we will teach children to grow their own food, living in an organic lifestyle, which involves a language of love that is able to be passed down from generations to generations. Everything starts with a vision, and this one is an impeccable one; touching lives of many. We are starting from the ground up, and you can help us take this vision- make it a physical reality. 
 
  
 
@@ -72,7 +71,7 @@ We welcome contributions from the community to improve our website. If you'd lik
 4. Create a new branch for your work:
 
    ```bash
-   git checkout -b fix-issue-XXX
+   saw_ticket# -Short_Description
    ```
 
    Replace "XXX" with the issue number you're addressing.
