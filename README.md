@@ -29,15 +29,8 @@ Our website includes a range of features designed to provide you with comprehens
 A website that serves as the front-facing information and involvement page for anyone wanting to know more about us and our goals. It will have many features such as a mission statement, timelines, ways to get involved, contact information, and donations.
 
 
- 
 
-- **Structure:** Bringing forth structure, discipline, and creativity into the lives of children will help them discover their journey in life. We will use gentle ways of discipline, including creative structures based upon child’s needs, in daily routines that will assist children to develop habits that will acclimate them into confidence in their journey.
-
- 
-
-- **Charity:** Our sponsors, donors, and board members are compassionate individuals who have honor in serving our cause. Being a charitable organization, our main priority is to bring forth a difference in lives of children in Nepal, and provide homes to children who have no where to call home. Join us in this provision of serving assistance, a humanitarian act that is unmotivated by any self-interest, and is all about the lives of the children in Nepal.
-
-- **Donations:** Support our mission by making a donation through our secure platform.
+- **Donations:** https://www.gofundme.com/f/shanti-ashram?utm_source=customer&utm_medium=copy_link&utm_campaign=p_lico+share-sheet
 
 ## Getting Started
 
@@ -61,6 +54,7 @@ To clone this repository to your local machine, you'll need [Git](https://git-sc
 ### Fixing Issues
 
 We welcome contributions from the community to improve our website. If you'd like to fix an issue or work on an enhancement, follow these steps:
+PS. Reach out to shantiashramtech@gmail.com to get access to our Trello, Confluence, and other information for onboarding.
 
 1. Browse our [Trello board](https://trello.com/b/CRiwsjfr/shanti-ashram-web-development) to find an issue you'd like to work on. If you don't find an existing issue, feel free to create a new one.
 
@@ -109,7 +103,7 @@ We appreciate contributions from the community. If you have ideas for improvemen
 
 ## Contact Information
 
-For inquiries, collaboration opportunities, or any questions, you can contact us our project lead Anish Kharel at kharela@berea.edu.
+For inquiries, collaboration opportunities, or any questions, you can contact our project lead Anish Kharel at kharela@berea.edu or our dev support  at shantiashramtech@gmail.com.
 
 ## Donations
 
